@@ -1,59 +1,101 @@
-# Raspberry Pi Custom Options Setup                                                                           
----
+# 🍓 Raspberry Pi Custom Options Setup
 
-## Overview
-
-A bash script utility for configuring advanced options on Raspberry Pi devices, particularly focused on non-Pi OS installations and specialized configurations.
+<div align="center">
 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+[![Development Status](https://img.shields.io/badge/status-in_development-yellow.svg?style=for-the-badge)](https://github.com/g-flame)
+[![GitHub Issues](https://img.shields.io/github/issues/g-flame/rpi-custom-options?style=for-the-badge)](https://github.com/g-flame/rpi-custom-options/issues)
 
-## Status Notice
+An advanced configuration utility for Raspberry Pi devices beyond the standard Pi OS ecosystem.
 
-> **Note**: This project is currently under active development. Features and documentation will be expanded in future updates.
+</div>
 
-## Purpose
+## 🎯 Overview
 
-This tool simplifies the process of:
+This bash-based utility empowers Raspberry Pi users to configure advanced options on their devices, with a special focus on alternative operating systems and specialized configurations that go beyond the standard Pi OS toolset.
 
-- Configuring Raspberry Pi devices running alternative operating systems
-- Enabling advanced features not available through standard interfaces
-- Streamlining custom setup processes for specialized use cases
+## ⚡ Key Features
 
-## Quick Start
+### Current Implementation
+- Configuration management for non-Pi OS installations
+- Advanced hardware interface controls
+- Custom boot parameter management
+- Specialized setup automation
+
+### Upcoming Features
+- Performance optimization tools
+- Network configuration utilities
+- Hardware acceleration setup
+- Advanced GPIO management
+- Custom overlay configuration
+
+## 🚀 Quick Start
 
 ```bash
-# Installation and usage instructions coming soon
+# Coming Soon!
+git clone https://github.com/g-flame/rpi-custom-options.git
+cd rpi-custom-options
+./setup.sh
 ```
 
-## Features
+## 📋 Development Roadmap
 
-Development is ongoing, with planned functionality including:
+| Phase | Feature | Status |
+|-------|---------|--------|
+| 1 | Core Script Framework | 🏗️ In Progress |
+| 2 | Configuration Modules | 📅 Planned |
+| 3 | Documentation | 📅 Planned |
+| 4 | Testing Suite | 📅 Planned |
+| 5 | UI Improvements | 📅 Planned |
 
-- Custom boot configuration options
-- Hardware interface enablement
-- Performance optimization settings
-- Network configuration utilities
+## 💡 Use Cases
 
-## Development Roadmap
+- **Alternative OS Configuration**: Easily set up advanced features on non-Pi OS systems
+- **Specialized Deployments**: Quick configuration for kiosks, servers, and embedded systems
+- **Hardware Optimization**: Fine-tune your Pi's performance for specific applications
+- **Custom Boot Setups**: Manage complex boot configurations with ease
 
-- [ ] Core script framework
-- [ ] Configuration modules
-- [ ] Documentation
-- [ ] Testing suite
-- [ ] User interface improvements
+## 🛠️ Technical Details
 
-## Contributing
+The utility is designed to:
+- Modify boot configuration files safely
+- Enable/disable hardware interfaces
+- Configure system parameters
+- Optimize performance settings
+- Manage network configurations
 
-While the project is in early development, interested contributors can:
+## 👥 Contributing
 
-1. Watch the repository for updates
-2. Submit feature requests via issues
-3. Provide feedback on planned features
+We welcome contributions! Here's how you can help:
 
-## Credits
+1. 👀 **Watch** the repository for updates
+2. 🐛 **Report** bugs via issues
+3. 💭 **Submit** feature requests
+4. 🔧 **Propose** pull requests
 
-Developed and maintained by [g-flame](https://github.com/g-flame)
+## 📝 Documentation
+
+Comprehensive documentation is under development and will include:
+- Installation guides
+- Configuration examples
+- Best practices
+- Troubleshooting tips
+- API reference
+
+## ⚖️ License
+
+This project is licensed under the [License Type] - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Credits
+
+Developed and maintained with ❤️ by [g-flame-oss](https://github.com/g-flame)
 
 ---
 
-_More detailed documentation and features will be added as development progresses._
+<div align="center">
+
+**🚧 Project Status: Under Active Development 🚧**
+
+*Watch this space for regular updates and new features!*
+
+</div>
