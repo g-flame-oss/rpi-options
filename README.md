@@ -4,7 +4,6 @@
 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 [![Development Status](https://img.shields.io/badge/status-in_development-yellow.svg?style=for-the-badge)](https://github.com/g-flame)
-[![GitHub Issues](https://img.shields.io/github/issues/g-flame/rpi-custom-options?style=for-the-badge)](https://github.com/g-flame/rpi-custom-options/issues)
 
 An advanced configuration utility for Raspberry Pi devices beyond the standard Pi OS ecosystem.
 
