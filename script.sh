@@ -13,6 +13,13 @@ Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 
 
+ root() {
+    if [ "$EUID" -ne 0 ]; then
+    echo -e "${Red}Please run with root account or use sudo to start the script!${Color_Off}"
+    exit 1
+    fi 
+    }
+
 staticIp() {
     echo -e "${Red}-------------------------------${Color_Off}"
     echo -e "${Yellow} IF YOU DON'T KNOW WHAT YOU ARE DOING STOP AND READ THE INSTRUCTIONS AT https://github.com/g-flame/rpi-setup/docs/ip.md ${Color_Off}"
@@ -117,14 +124,8 @@ ui() {
         ;;
 
 }
-
-## calling ui and checkin root
-
-    if [ "$EUID" -ne 0 ]; then
-    echo -e "${Red}Please run with root account or use sudo to start the script!${Color_Off}"
-    exit 1
-    fi 
-
+## calling functions !
+root
 ui
 
 ## checing for ^c and deleting tmp dor
