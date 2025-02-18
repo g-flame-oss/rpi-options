@@ -74,7 +74,7 @@ staticIp() {
      ;;
      n)
       esac
-        ;;
+        
 }
 
 
