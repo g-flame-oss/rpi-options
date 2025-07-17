@@ -2,6 +2,15 @@
 
 A simple Bash script for managing static IP configuration on Raspberry Pi using NetworkManager.
 
+
+## Installation
+
+Run the script directly using:
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/g-flame-oss/rpi-options/refs/heads/main/script.sh)
+```
+
 ## Features
 
 - Set static IP addresses via dialog menus
@@ -16,9 +25,3 @@ A simple Bash script for managing static IP configuration on Raspberry Pi using 
 - `dialog`
 - `NetworkManager` (will prompt to install if missing)
 
-## Installation
-
-Run the script directly using:
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/g-flame-oss/rpi-options/refs/heads/main/script.sh)
